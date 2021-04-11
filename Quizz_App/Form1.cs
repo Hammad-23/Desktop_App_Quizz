@@ -29,7 +29,9 @@ namespace Quizz_App
 
         private void button3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            Form f3 = new GeneralK();
+            f3.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

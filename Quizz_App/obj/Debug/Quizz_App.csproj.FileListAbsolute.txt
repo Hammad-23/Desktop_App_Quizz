@@ -9,3 +9,4 @@ D:\.Net desktop Apps\Quizz_App\Quizz_App\obj\Debug\Quizz_App.csproj.CoreCompileI
 D:\.Net desktop Apps\Quizz_App\Quizz_App\obj\Debug\Quizz_App.exe
 D:\.Net desktop Apps\Quizz_App\Quizz_App\obj\Debug\Quizz_App.pdb
 D:\.Net desktop Apps\Quizz_App\Quizz_App\obj\Debug\Quizz_App.CompSci.resources
+D:\.Net desktop Apps\Quizz_App\Quizz_App\obj\Debug\Quizz_App.GeneralK.resources

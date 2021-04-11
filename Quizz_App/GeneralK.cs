@@ -10,23 +10,38 @@ using System.Windows.Forms;
 
 namespace Quizz_App
 {
-    public partial class CompSci : Form
+    public partial class GeneralK : Form
     {
+
         int correctAnswer;
         int questionNumber = 1;
         int totalQuestions;
-        public CompSci()
+        public GeneralK()
         {
-
             InitializeComponent();
             askQuestions(questionNumber);
-            totalQuestions = 8;
-            
+            totalQuestions = 10;
         }
 
-        private void CompSci_Load(object sender, EventArgs e)
+        private void GeneralK_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnOpt1_Click(object sender, EventArgs e)
+        {
+            questionNumber++;
+            askQuestions(questionNumber);
         }
 
         private void askQuestions(int qNum)
@@ -34,7 +49,7 @@ namespace Quizz_App
             switch (qNum)
             {
                 case 1:
-                    lblQ.Text = "Which of the following languages is more suited to a structured program?";
+                    lblQE.Text = "Which of the following languages is more suited to a structured program?";
                     btnOpt1.Text = "PL/1";
                     btnOpt2.Text = "FORTRAN";
                     btnOpt3.Text = "BASIC";
@@ -44,7 +59,7 @@ namespace Quizz_App
                     break;
 
                 case 2:
-                    lblQ.Text = "The brain of any computer system is";
+                    lblQE.Text = "The brain of any computer system is";
                     btnOpt1.Text = "ALU";
                     btnOpt2.Text = "Memory";
                     btnOpt3.Text = "CPU";
@@ -54,7 +69,7 @@ namespace Quizz_App
                     break;
 
                 case 3:
-                    lblQ.Text = "Which of the following computer language is used for artificial intelligence?";
+                    lblQE.Text = "Which of the following computer language is used for artificial intelligence?";
                     btnOpt1.Text = "FORTRAN";
                     btnOpt2.Text = "PROLOG";
                     btnOpt3.Text = "C";
@@ -64,7 +79,7 @@ namespace Quizz_App
                     break;
 
                 case 4:
-                    lblQ.Text = "Which of the following is the 1's complement of 10?";
+                    lblQE.Text = "Which of the following is the 1's complement of 10?";
                     btnOpt1.Text = "01";
                     btnOpt2.Text = "110";
                     btnOpt3.Text = "11";
@@ -74,7 +89,7 @@ namespace Quizz_App
                     break;
 
                 case 5:
-                    lblQ.Text = "Which part interprets program instructions and initiate control operations.";
+                    lblQE.Text = "Which part interprets program instructions and initiate control operations.";
                     btnOpt1.Text = "Input";
                     btnOpt2.Text = "Storage unit";
                     btnOpt3.Text = "Logic unit";
@@ -82,9 +97,9 @@ namespace Quizz_App
                     correctAnswer = 4;
 
                     break;
-                    
+
                 case 6:
-                    lblQ.Text = "The binary system uses powers of";
+                    lblQE.Text = "The binary system uses powers of";
                     btnOpt1.Text = "2";
                     btnOpt2.Text = "10";
                     btnOpt3.Text = "8";
@@ -94,7 +109,7 @@ namespace Quizz_App
                     break;
 
                 case 7:
-                    lblQ.Text = "A computer program that converts assembly language to machine language is";
+                    lblQE.Text = "A computer program that converts assembly language to machine language is";
                     btnOpt1.Text = "Compiler";
                     btnOpt2.Text = "Interpreter";
                     btnOpt3.Text = "Assembler";
@@ -104,7 +119,7 @@ namespace Quizz_App
                     break;
 
                 case 8:
-                    lblQ.Text = "The time for which a piece of equipment operates is called";
+                    lblQE.Text = "The time for which a piece of equipment operates is called";
                     btnOpt1.Text = "Seek time";
                     btnOpt2.Text = "Effective time";
                     btnOpt3.Text = "Access time";
@@ -114,7 +129,7 @@ namespace Quizz_App
                     break;
 
                 case 9:
-                    lblQ.Text = "A name applied by Intel corp. to high speed MOS technology is called";
+                    lblQE.Text = "A name applied by Intel corp. to high speed MOS technology is called";
                     btnOpt1.Text = "HDLC";
                     btnOpt2.Text = "LAP";
                     btnOpt3.Text = "HMOS";
@@ -124,7 +139,7 @@ namespace Quizz_App
                     break;
 
                 case 10:
-                    lblQ.Text = "A common boundary between two systems is called";
+                    lblQE.Text = "A common boundary between two systems is called";
                     btnOpt1.Text = "Interdiction";
                     btnOpt2.Text = "Interface";
                     btnOpt3.Text = "Surface";
@@ -138,10 +153,6 @@ namespace Quizz_App
 
         }
 
-        private void btnOpt1_Click(object sender, EventArgs e)
-        {
-            questionNumber++;
-            askQuestions(questionNumber);
-        }
+        
     }
 }

@@ -32,7 +32,6 @@ namespace Quizz_App
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblQuizz = new System.Windows.Forms.Label();
             this.btnComp = new System.Windows.Forms.Button();
-            this.btnEnglish = new System.Windows.Forms.Button();
             this.btnGeneral = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -72,27 +71,13 @@ namespace Quizz_App
             this.btnComp.UseVisualStyleBackColor = false;
             this.btnComp.Click += new System.EventHandler(this.button1_Click);
             // 
-            // btnEnglish
-            // 
-            this.btnEnglish.BackColor = System.Drawing.Color.Green;
-            this.btnEnglish.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnEnglish.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEnglish.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnEnglish.Location = new System.Drawing.Point(429, 322);
-            this.btnEnglish.Name = "btnEnglish";
-            this.btnEnglish.Size = new System.Drawing.Size(276, 52);
-            this.btnEnglish.TabIndex = 3;
-            this.btnEnglish.Text = "English";
-            this.btnEnglish.UseVisualStyleBackColor = false;
-            this.btnEnglish.Click += new System.EventHandler(this.button2_Click);
-            // 
             // btnGeneral
             // 
-            this.btnGeneral.BackColor = System.Drawing.Color.DimGray;
+            this.btnGeneral.BackColor = System.Drawing.Color.Green;
             this.btnGeneral.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGeneral.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGeneral.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnGeneral.Location = new System.Drawing.Point(429, 402);
+            this.btnGeneral.Location = new System.Drawing.Point(429, 336);
             this.btnGeneral.Name = "btnGeneral";
             this.btnGeneral.Size = new System.Drawing.Size(276, 52);
             this.btnGeneral.TabIndex = 4;
@@ -107,7 +92,6 @@ namespace Quizz_App
             this.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.ClientSize = new System.Drawing.Size(1149, 560);
             this.Controls.Add(this.btnGeneral);
-            this.Controls.Add(this.btnEnglish);
             this.Controls.Add(this.btnComp);
             this.Controls.Add(this.lblQuizz);
             this.Controls.Add(this.pictureBox1);
@@ -125,7 +109,6 @@ namespace Quizz_App
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblQuizz;
         private System.Windows.Forms.Button btnComp;
-        private System.Windows.Forms.Button btnEnglish;
         private System.Windows.Forms.Button btnGeneral;
     }
 }
